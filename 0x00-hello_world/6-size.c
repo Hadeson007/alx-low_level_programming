@@ -4,8 +4,9 @@
  * main - print the string in the put function
  *
  * Description: using the main function
- * This program  prints the size of various types on the computer it is compiled and run on.
- * Return: 0
+ * This program  prints the sizeof many var types
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -21,3 +22,4 @@ int main(void)
 	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
 	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
+}
