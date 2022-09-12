@@ -6,13 +6,13 @@
 
 /**
  *
- * *main - Entry point, positive or negative, print sign of random number
+ *main - Entry point, positive or negative, print sign of random number
  *
- * *@void: Empty  list for main
+ *@void: Empty  list for main
  *
- * *Decription: positive, zero and negative values
+ *Decription: positive, zero and negative values
  *
- * *Return: 0 success
+ *Return: 0 success
  */
 int main(void)
 {
