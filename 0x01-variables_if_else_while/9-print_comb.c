@@ -1,14 +1,16 @@
+#include <stdlib.h>
+
 #include <stdio.h>
 
-
+#include <time.h>
 
 /**
 
- * main - Prints all possible combinations of single-digit numbers.
+*main- Writes 0-9
 
- *
+*Description: writes 0-9 with comma and space
 
- * Return: Always 0.
+*Return: 0
 
 */
 
@@ -16,33 +18,32 @@ int main(void)
 
 {
 
-	int num;
+	int sum = 0;
 
 
 
-	for (num = 0; num <= 9; num++)
+	while (sum <= 9)
 
 	{
 
-		putchar((num % 10) + '0');
+		putchar(sum + '0');
 
-		if (num == 9)
+		if (sum < 9)
 
-			continue;
+		{
 
+			putchar(',');
 
+			putchar(' ');
 
-		putchar(',');
+		}
 
-		putchar(' ');
+		sum++;
 
 	}
 
-
-
 	putchar('\n');
-
-
 
 	return (0);
 
+}
